@@ -14,7 +14,7 @@ function Banner() {
             <p>
             UI/UX & Graphics Designer <br /> Web Developer <br /> Programmar
             </p>
-            <a className="btn" href="https://www.fiverr.com/simon_white?public_mode=true" target="_blank">
+            <a className="btn" href="https://www.fiverr.com/simon_white?public_mode=true" target="_blank" rel="noreferrer">
               Hire Me
             </a>
           </div>
