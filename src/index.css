@@ -49,9 +49,9 @@ header {
   height: 100px;
 }
 header.sticky {
-  box-shadow: 0 0 5px rgba(255, 255, 255, 0.6);
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.6);
   z-index: 10;
-  transition: 0.3s;
+  transition: 0.8s;
   position: sticky;
   top: 0;
   background: var(--dark-light);
@@ -125,7 +125,7 @@ header .mobile-links {
 .banner .banner-content .btn {
   max-width: 150px;
   height: 50px;
-  background: var(--blue);
+  /* background: var(--blue); */
   color: var(--light);
   margin-top: 20px;
   transition: 0.3s;
@@ -138,9 +138,10 @@ header .mobile-links {
   
 }
 .banner .banner-content .btn:hover {
+  color: var(--dark);
   --x: 100%;
-  --a1: #0fb2e3;
-  --a2: #1b77b5;
+  --a1: #00c3ff;
+  --a2: #006fba;
   transition: 0.4s;
   box-shadow: 0px 10px 30px rgb(0, 0, 0);
   
@@ -367,7 +368,7 @@ footer {
 footer .container {
   display: flex;
   align-items: center;
-  justify-content: space-between;
+  justify-content: center;
   height: 80px;
 }
 footer .logo,
@@ -379,7 +380,7 @@ footer p {
 }
 
 footer .logo {
-  font-size: 30px;
+  font-size: 26px;
   line-height: 40px;
   color: var(--blue-text);
   font-weight: 900;
@@ -387,17 +388,18 @@ footer .logo {
 footer .links {
   display: flex;
   align-items: center;
-  justify-content: center;
+  justify-content: right;
 }
 footer a,
 footer p {
-  margin: 0px 15px;
+  margin: 0px 14px;
   font-size: 20px;
   line-height: 30px;
   color: #fff;
   cursor: pointer;
   transition: 0.3s;
 }
+
 footer a:hover {
   color: var(--blue-text);
 }
@@ -549,4 +551,31 @@ footer p i {
     line-height: 30px;
     margin-bottom: 20px;
   }
+}
+
+.top-to-btm{
+  position: relative;
+}
+.icon-position{
+  position: fixed;
+  bottom: 100px;
+  right: 24px;
+  z-index: 20;
+}
+.icon-style{
+  background-color: var(--dark-light);
+  border: 2px solid #fff;
+  border-radius: 50%;
+  height: 50px;
+  width: 50px;
+  color: #fff;
+  cursor: pointer;
+  animation: ease-in-out;
+  transition: 0.8ms;
+}
+.icon-style:hover{
+  animation: none;
+  background: #fff;
+  color: var(--blue);
+  border: 2px solid var(--blue);
 }
