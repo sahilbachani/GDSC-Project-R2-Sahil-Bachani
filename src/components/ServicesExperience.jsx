@@ -24,19 +24,19 @@ function ServicesExperience() {
     {
       icon: "fa-paintbrush",
       title: "Graphics Designing",
-      desc: "User attractive designs to maximize marketing, profit and reviews.",
+      desc: "Elevating ideas with impactful graphic designs.",
       active: false,
     },
     {
       icon: "fa-video",
       title: "Video Production",
-      desc: "Gaming, technological and cinematic video productions on the go.",
+      desc: "Shaping stories through dynamic video editing.",
       active: false,
     },
     {
       icon: "fa-image",
       title: "Photo Editing",
-      desc: "See yourself just like how you imagine with my photo retouching skills.",
+      desc: "Crafting visual perfection through precise editing.",
       active: false,
     },
   ]);
